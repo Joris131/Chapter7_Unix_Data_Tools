@@ -1,4 +1,2 @@
     head -n <number> <file>
-## the top <num> of the file
-# the top <number> of the file
-### the top /<num/> of the file
+## the top num (默认为10) of the file
