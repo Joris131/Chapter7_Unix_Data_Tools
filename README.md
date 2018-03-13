@@ -1,4 +1,4 @@
-# Plain-text tools:head, tail, less, ls, cut, sort, grep, sed, awk
+# Plain-text tools:head, tail, less, ls, cut, sort, uniq, join, grep, sed, awk
 
 ##head, tail, less:
     head -n <number> <file>
@@ -17,7 +17,9 @@
     step1 input.txt | step2 | less
     step1 input.txt | step2 | step3 | less
     
-## wc (word count), wc outputs the number of words, lines, and characters of the supplied file. wc -l return the number of lines
+## wc (word count), wc outputs the number of words, lines, and characters of the supplied file. 
+
+    wc -l #return the number of lines
 
 ## ls -l reports file sizes in bytes， If we wish to use human-readable sizes, we can use ls -lh.
 
@@ -58,6 +60,13 @@
 ## 用 hexdump 或 grep 查看 non-ASCII characters, which can lead to problems:
 
     hexdump -c <file>
+    
+## uniq :Unix’s uniq takes lines from a file or standard input stream, and outputs all lines with consecutive duplicates removed.    
+
+### Both sort | uniq and sort | uniq -c are frequently used shell idioms in bioinformatics and worth memorizing.
+
+
+
     
    
    
