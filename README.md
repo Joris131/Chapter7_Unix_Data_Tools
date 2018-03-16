@@ -17,7 +17,7 @@
     step1 input.txt | step2 | less
     step1 input.txt | step2 | step3 | less
     
-## wc (word count), wc outputs the number of words, lines, and characters of the supplied file. 
+## wc (word count), wc outputs the number of lines, words, and characters of the supplied file. 
 
     wc -l #return the number of lines
 
