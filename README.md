@@ -34,6 +34,12 @@
     
 ### Note that you should only use columnt -t to visualize data in the terminal, not to reformat data to write to a file, but just make it easier to read.
 
+## sort:
+
+    sort -k2 # to sort based on the 2nd column
+    sort -m # to sort more humanized, like 2 is placed before 10
+    sort -r # to sort reversely
+
 ## grep
 
 ### grep -v 的注意事项（排除partial match)：
