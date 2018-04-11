@@ -1,4 +1,4 @@
-# Plain-text tools:head, tail, less, ls, cut, sort, uniq, join, grep, sed, awk
+# Plain-text tools:head, tail, less, ls, cut, sort, uniq, diff, comm, join, grep, sed, awk
 
 ##head, tail, less:
     head -n <number> <file>
@@ -39,6 +39,12 @@
     sort -k2 # to sort based on the 2nd column
     sort -m # to sort more humanized, like 2 is placed before 10
     sort -r # to sort reversely
+    
+## diff file1 file2
+
+#### "|"表示前后两个文件内容不同
+#### “<"表示后面文件比前面文件少了1行内容
+#### ”>“表示后面文件比前面文件多了1行内容
 
 ## grep
 
