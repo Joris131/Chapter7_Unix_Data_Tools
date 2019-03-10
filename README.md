@@ -1,6 +1,6 @@
 # Plain-text tools:head, tail, less, ls, cut, sort, uniq, diff, comm, join, grep, sed, awk
 
-##head, tail, less:
+## head, tail, less:
     head -n <number> <file>
     tail -n <number> <file>
 ### the top/last num (默认为10) of the file
@@ -9,7 +9,7 @@
 
     (head -n 2; tail -n 2) < Mus_musculus.GRCm38.75_chr1.bed
     
-####然而，更robust的方法是使用 grep。
+#### 然而，更robust的方法是使用 grep。
 
 ### less 命令的作用：1）检查文本；2）在 pipes 工作中 debbuging 和节省电脑运行，例如step1 input.txt | step2 | step3 > output.txt可以这样运行：
 
