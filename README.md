@@ -1,4 +1,5 @@
-# Plain-text tools:head, tail, less, ls, cut, sort, uniq, diff, comm, join, grep, sed, awk
+# Plain-text tools:
+# head, tail, less, ls, cut, sort, uniq, diff, comm, join, grep, sed, awk
 
 ## head, tail, less:
     head -n <number> <file>
@@ -20,8 +21,16 @@
 ## wc (word count), wc outputs the number of lines, words, and characters of the supplied file. 
 
     wc -l #return the number of lines
+    wc -c filename
+### 注意：每行结尾的换行符也算一个字符，空格也算一个字符
+### 采用UTF-8编码，所以一个汉字在这里被转换为3字节
+### 当使用-m选项时，一个汉字就作为一个字符计算
 
-## ls -l reports file sizes in bytes， If we wish to use human-readable sizes, we can use ls -lh.
+## reports file sizes in bytes
+    ls -l
+### If we wish to use human-readable sizes, we can use ls -lh.
+    ls -lh.
+
 
 ## cut 用来extract specific columns from the original file or stream：
 
